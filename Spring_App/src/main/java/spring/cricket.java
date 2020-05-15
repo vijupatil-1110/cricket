@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class cricket {
 	 @RequestMapping("/")
 	    String home() {
-	        return "Jyoti ! How are you ?";
+	        return "Hello Nagaraj ! How are you ?";
 	    }
 }

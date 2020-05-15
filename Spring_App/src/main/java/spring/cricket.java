@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class cricket {
 	 @RequestMapping("/")
 	    String home() {
-	        return "Spring Boot Application";
+	        return "Hello Jyoti ! How are you ?";
 	    }
 }

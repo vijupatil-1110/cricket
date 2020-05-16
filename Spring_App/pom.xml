@@ -57,7 +57,7 @@
                   <verbose>true</verbose>
                   <images>
                      <image>
-                        <name>${project.artifactId}</name>
+                        <name>first-app</name>
                         <build>
                            <from>java:8-jdk-alpine</from>
                            <entryPoint>

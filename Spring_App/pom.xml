@@ -80,7 +80,7 @@
                      </goals>
                   </execution>
 		  <execution>
-                     <id>build</id>
+                     <id>push</id>
                      <phase>package</phase>
                      <goals>
                         <goal>push</goal>			

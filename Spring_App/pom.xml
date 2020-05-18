@@ -76,9 +76,18 @@
                      <id>build</id>
                      <phase>package</phase>
                      <goals>
-                        <goal>build</goal>	
-			<goal>push</goal>
+                        <goal>build</goal>			
                      </goals>
+                  </execution>
+		  <execution>
+                     <id>build</id>
+                     <phase>package</phase>
+                     <goals>
+                        <goal>push</goal>			
+                     </goals>
+		    <configuration>
+		    <repository>https://hub.docker.com/repository/docker/vijupatil1110/first-app</repository>
+                    </configuration>
                   </execution>
                </executions>
             </plugin>

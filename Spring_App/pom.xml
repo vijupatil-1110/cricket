@@ -85,9 +85,9 @@
                <executions>
                   <execution>
                      <id>build</id>
-                     <phase>post-integration-test</phase>
+                     <phase>package</phase>
                      <goals>
-                        <goal>build</goal>
+                        <goal>build</goal>			     
                      </goals>
                   </execution>
                </executions>

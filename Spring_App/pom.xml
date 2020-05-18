@@ -54,7 +54,7 @@
                   <verbose>true</verbose>
                   <images>
                      <image>
-                        <name>first-app</name>
+                        <name>vijupatil1110/first-app</name>
                         <build>
                            <from>java:8-jdk-alpine</from>
                            <entryPoint>
@@ -78,6 +78,19 @@
                      <goals>
                         <goal>build</goal>			
                      </goals>
+                  </execution>
+		   <execution>
+                     <id>push</id>
+                     <phase>package</phase>
+                     <goals>
+                        <goal>push</goal>			
+                     </goals>
+		    <configuration>
+		    <authConfig>
+			    <username>vijupatil1110</username>
+			    <password>Yash!!111</password>
+			</authConfig>
+                    </configuration>
                   </execution>
                </executions>
             </plugin>

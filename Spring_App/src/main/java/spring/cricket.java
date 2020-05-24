@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class cricket {
 	 @RequestMapping("/")
 	    String home() {
-	        return "Welcome to NFT Sterlite....";
+	        return "Welcome to NFR Sterlite....";
 	    }
 }
